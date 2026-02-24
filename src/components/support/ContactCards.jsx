@@ -13,22 +13,22 @@ const contacts = [
   {
     icon: Phone,
     title: 'Phone Support',
-    value: '+1 (800) 555-0123',
-    subtitle: 'Mon-Fri, 9AM-6PM EST',
+    value: '+1 (613) 555-0123',
+    subtitle: 'Mon-Fri, 9AM–6PM ET',
     color: 'bg-emerald-500'
   },
   {
     icon: Clock,
     title: 'Business Hours',
-    value: '24/7 Live Chat',
-    subtitle: 'Phone: Mon-Fri 9-6 EST',
+    value: '24/7 AI Chat',
+    subtitle: 'Phone: Mon-Fri 9–6 ET',
     color: 'bg-violet-500'
   },
   {
     icon: MapPin,
     title: 'Headquarters',
-    value: 'San Francisco, CA',
-    subtitle: 'United States',
+    value: 'Ottawa, Ontario',
+    subtitle: 'Canada 🍁',
     color: 'bg-amber-500'
   }
 ];
