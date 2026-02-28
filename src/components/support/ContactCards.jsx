@@ -6,7 +6,7 @@ const contacts = [
   {
     icon: Mail,
     title: 'Email Support',
-    value: 'support@lbcnetwork.com',
+    value: 'Tarek-samara@lbc-hub.com',
     subtitle: 'We reply within 24 hours',
     color: 'bg-blue-500'
   },
