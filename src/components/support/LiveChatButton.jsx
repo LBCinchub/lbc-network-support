@@ -19,7 +19,7 @@ Key company info:
 - Company: LBC Network
 - Location: Ottawa, Ontario, Canada
 - Support email: tarek-samara@lbc-hub.com
-- Support phone: 613-672-2727
+- Support phone: 613-314-1994
 - Business hours: Monday–Friday, 9AM–6PM Eastern Time (ET)
 - 24/7 AI & live chat available
 

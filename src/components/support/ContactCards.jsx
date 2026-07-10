@@ -13,7 +13,7 @@ const contacts = [
   {
     icon: Phone,
     title: 'Phone Support',
-    value: '613-672-2727',
+    value: '613-314-1994',
     subtitle: 'Mon-Fri, 9AM–6PM ET',
     color: 'bg-emerald-500'
   },
