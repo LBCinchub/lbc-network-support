@@ -1,0 +1,86 @@
+{
+  "name": "SupportTicket",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the person submitting the ticket"
+    },
+    "email": {
+      "type": "string",
+      "description": "Email address for contact"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "wallet",
+        "account",
+        "transaction",
+        "security",
+        "other"
+      ],
+      "description": "Category of the support issue"
+    },
+    "subject": {
+      "type": "string",
+      "description": "Brief subject of the issue"
+    },
+    "message": {
+      "type": "string",
+      "description": "Detailed description of the issue"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "in_progress",
+        "resolved",
+        "closed"
+      ],
+      "default": "open",
+      "description": "Current status of the ticket"
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "urgent"
+      ],
+      "default": "medium"
+    },
+    "ai_priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "urgent"
+      ],
+      "description": "AI-assigned priority level"
+    },
+    "ai_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "AI-suggested tags for routing"
+    },
+    "ai_summary": {
+      "type": "string",
+      "description": "AI-generated summary of the issue"
+    },
+    "ai_routing_note": {
+      "type": "string",
+      "description": "AI suggestion for which team to route this to"
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "category",
+    "subject",
+    "message"
+  ]
+}
