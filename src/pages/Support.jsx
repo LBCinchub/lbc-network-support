@@ -7,6 +7,7 @@ import FAQSection from '@/components/support/FAQSection';
 import TicketForm from '@/components/support/TicketForm';
 import LiveChatButton from '@/components/support/LiveChatButton';
 import ContactCards from '@/components/support/ContactCards';
+import SupportLogo from '@/components/branding/SupportLogo';
 
 export default function Support() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -31,9 +32,7 @@ export default function Support() {
       <header className="bg-white border-b border-gray-100 sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 bg-blue-600 rounded-xl flex items-center justify-center">
-              <span className="text-white font-bold text-sm">LBC</span>
-            </div>
+            <SupportLogo size="md" />
             <span className="font-semibold text-gray-900">Support Center</span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm text-gray-600">
@@ -117,6 +116,9 @@ export default function Support() {
       {/* Footer */}
       <footer className="bg-gray-50 border-t border-gray-100 py-8 px-4">
         <div className="max-w-6xl mx-auto text-center">
+          <div className="flex justify-center mb-4">
+            <SupportLogo size="md" />
+          </div>
           <p className="text-sm text-gray-500">© 2026 LBC Network. All rights reserved.</p>
           <div className="flex justify-center gap-6 mt-4 text-sm text-gray-400">
             <a href="#" className="hover:text-gray-600 transition-colors">Privacy Policy</a>

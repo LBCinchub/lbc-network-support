@@ -1,0 +1,18 @@
+{
+  "name": "LBC Network Support",
+  "short_name": "LBC Support",
+  "description": "Support center for LBC Network",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/lbc-support.png?v=1",
+      "sizes": "1200x1200",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
